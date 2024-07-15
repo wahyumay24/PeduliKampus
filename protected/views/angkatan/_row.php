@@ -14,7 +14,7 @@
                             ?>
                         </td>
                         <td>
-                            <a class="btn btn-circle btn-warning btn-sm" onClick="SettingForm('EditBatch', <?php echo $data->id; ?>, '<?php echo $data->batch_name; ?>', '<?php echo $data->is_active; ?>')"><i class="fas fa-pen"></i></a>
+                            <a class="btn btn-circle btn-warning btn-sm" onClick="SettingForm('Edit', <?php echo $data->id; ?>, '<?php echo $data->batch_name; ?>', '<?php echo $data->is_active; ?>')"><i class="fas fa-pen"></i></a>
                             <a class="btn btn-circle btn-danger btn-sm" onClick='DeleteBatch(<?php echo $data->id; ?>)'><i class="fas fa-trash"></i></a>
                         </td>
                     </tr>

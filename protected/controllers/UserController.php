@@ -11,7 +11,7 @@ class UserController extends Controller
 			'formUser'=>$formUser
 		]);
 	}
-
+// test
 	public function actionAdd($id = null)
 	{	
 		$formUser = new UserM();

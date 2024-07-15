@@ -17,7 +17,7 @@ class AngkatanController extends Controller
 		$batch_name =  $_POST['batch_name'];
 		$is_active = $_POST['is_active'];
 		$formBatch = new MBatch();
-		$formBatch->batch_name = $batch_name;
+		$formBatch->nama = $nama;
 		$formBatch->is_active = $is_active;
 		$formBatch->created_by = 1;
 		$formBatch->created_date = date('Y-m-d H:i:s');
